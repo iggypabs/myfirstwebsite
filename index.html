@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="My First Website: a personal page about me, my studies, skills and hobbies.">
+<title>My First Website</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="#home">My First Website</a>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap">
+      <div>
+        <h1 id="hero-title">Hi, I'm <span>Ian Gabriel</span>.</h1>
+        <p>I'm a 4th-year BS Nursing student who also plays pickleball and tennis. This is the first website I've ever made, and it tells you who I am and what I enjoy.</p>
+        <a class="btn" href="#about">Meet me</a>
+        <a class="btn alt" href="#contact">Say hello</a>
+      </div>
+      <img class="portrait" width="560" height="558" alt="Photo of Ian Gabriel smiling in his white nursing uniform" src="resources/profile.jpg">
+    </div>
+  </section>
+
+  <section id="about" aria-labelledby="about-title">
+    <div class="wrap">
+      <h2 id="about-title">About me</h2>
+      <div class="about">
+        <article class="panel">
+          <p>My name is Ian Gabriel Y. Pabillar, and I'm a 4th-year student taking up Bachelor of Science in Nursing. I'm learning how to care for patients and work well with a healthcare team.</p>
+          <p>When I'm not studying, I like to stay active on the court. I play pickleball and tennis. I made this page for Activity no. 2 to practice HTML and CSS.</p>
+          <p>This isn't really my first website. I made a few during our IT subject in 7th grade, but this is my first website in a while.</p>
+        </article>
+        <aside class="panel" aria-label="Quick facts">
+          <dl>
+            <dt>Name</dt><dd>Ian Gabriel Y. Pabillar</dd>
+            <dt>Course</dt><dd>BS Nursing</dd>
+            <dt>Year</dt><dd>4th year</dd>
+            <dt>Hobbies</dt><dd>Pickleball, tennis</dd>
+            <dt>Email</dt><dd><a href="mailto:ianpabillar@gmail.com">ianpabillar@gmail.com</a></dd>
+          </dl>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" aria-labelledby="skills-title">
+    <div class="wrap">
+      <h2 id="skills-title">Skills and studies</h2>
+      <ul class="skills">
+        <li class="on">HTML</li>
+        <li class="on">CSS</li>
+        <li>Responsive design</li>
+        <li>Patient care</li>
+        <li>Teamwork</li>
+        <li>Time management</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="hobbies" aria-labelledby="hobbies-title">
+    <div class="wrap">
+      <h2 id="hobbies-title">Things I love</h2>
+      <figure class="feature">
+        <img width="1100" height="733" alt="Ian Gabriel mid-swing holding a pickleball paddle, wearing a black, orange and maroon sports jersey" src="resources/pickleball.jpg">
+        <figcaption>Me in action on the pickleball court.</figcaption>
+      </figure>
+      <div class="hobbies">
+        <figure>
+          <img src="resources/pickleball-icon.svg" width="300" height="160" alt="Pickleball paddle and ball icon">
+          <figcaption><strong>Pickleball</strong><span>Fast rallies and a great way to stay active with friends.</span></figcaption>
+        </figure>
+        <figure>
+          <img src="resources/tennis-icon.svg" width="300" height="160" alt="Tennis racket and ball icon">
+          <figcaption><strong>Tennis</strong><span>Training my focus and footwork one match at a time.</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <h2 id="contact-title">Get in touch</h2>
+      <div class="panel">
+        <ul>
+          <li>Personal email: <a href="mailto:ianpabillar@gmail.com">ianpabillar@gmail.com</a></li>
+          <li>School email: <a href="mailto:iangabriel.pabillar@g.msuiit.edu.ph">iangabriel.pabillar@g.msuiit.edu.ph</a></li>
+          <li>Learn HTML &amp; CSS: <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank" rel="noopener noreferrer">MDN Learn Web Development</a></li>
+        </ul>
+        <a class="btn" href="mailto:ianpabillar@gmail.com">Send me an email</a>
+        <a class="btn alt" href="#home">Back to top</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 Ian Gabriel Y. Pabillar</span>
+    <span>Built with HTML and CSS · Activity no. 2</span>
+  </div>
+</footer>
+
+</body>
+</html>
